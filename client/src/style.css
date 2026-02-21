@@ -1,0 +1,130 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Open+Sans:wght@400&display=swap');
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+body {
+  overflow-x: hidden;
+}
+
+   /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Cormorant Garamond', serif; */
+
+    .navbar{
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 17px;
+      line-height: 26px;
+      text-transform: uppercase;
+      box-shadow: 0px 8px 6px -6px gray;
+      --webkit-box-shadow: 0px 8px 6px -6px gray;
+      border-bottom: 0px solid gray !important ;
+    }
+
+    .nav-link{
+      font-weight: 300 !important;
+    }
+
+    .active{
+      border-bottom: 1px solid black; 
+    }
+
+
+    .navbar-brand{
+      font-weight: 700px;
+      letter-spacing: 1.5px;
+      display: flex;
+       gap: 8px;
+    }
+
+
+/* ........................................Page not found css............................... */
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading{
+  font-weight: normal;
+
+}
+
+.pdf-btn{
+  color: #000000;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+
+/* ........................................Contact us ........................................ */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* =============================================Register css============================ */
+
+
+ 
+
+
+
+
+
+
+
+    /* footer */
+
+    .footer{
+       background: linear-gradient(to right, #3b3a3a, #000000 );
+   color: white;
+    padding: 25px ;
+    }
+
+    .footer a{
+      text-decoration: none;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .footer a:hover{
+      color:#ffefba;
+      border-bottom:1px solid #ffefba ;
+    }
+
+
+
+
+
+
+
+
+
+    /* .................products
+     */
+     .product-link{
+      text-decoration: none !important;
+      color: black !important;
+     }

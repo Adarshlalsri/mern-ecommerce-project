@@ -1,0 +1,44 @@
+/* Desktop height */
+.hero-carousel,
+.hero-img {
+  height: 500px;
+}
+
+/* Image settings */
+.hero-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Center text vertically + horizontally */
+.hero-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+}
+
+/* Text styling */
+.hero-caption h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.hero-caption p {
+  font-size: 1.3rem;
+}
+
+/* 📱 Mobile responsive */
+@media (max-width: 768px) {
+  .hero-carousel,
+  .hero-img {
+    height: 300px;
+  }
+
+  .hero-caption h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-caption p {
+    font-size: 1rem;
+  }
+}
